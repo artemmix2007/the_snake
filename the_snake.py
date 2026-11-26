@@ -64,7 +64,7 @@ class Apple(GameObject):
 
 
 class Snake(GameObject):
-    """Класс змейки, наследуется от GameObject."""
+    """Класс змейки наследуется от GameObject."""
 
     def __init__(self, body_color=SNAKE_COLOR):
         """Инициализирует начальное состояние змейки."""
