@@ -86,7 +86,7 @@ class Snake(GameObject):
             self.next_direction = None
 
     def move(self):
-        """Обновляет позицию змейки на одну клетку один."""
+        """Обновляет позицию змейки на одну клетку."""
         head_x, head_y = self.get_head_position()
         dx, dy = self.direction
         new_head = (
